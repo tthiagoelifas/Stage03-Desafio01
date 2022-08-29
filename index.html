@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Mentoria</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./slyle.css">
+</head>
+<body>
+  <header>
+      <h1>Mentoria</h1>
+      <p>Preencha o formulário abaixo para agendar a sua mentoria</p>
+
+  </header>
+  <main>
+    <form id="my-form">
+      <fieldset>
+        <legend>
+          Informações pessoais
+        </legend>
+        
+        <div class="name-box">
+          
+          <div class="form-warpped">
+            <label for="name-warpped">Nome</label>
+            <input type="text" id="name-warpped">
+          </div>
+  
+          <div class="form-warpped">
+            <label for="surname-warpped">Sobrenome</label>
+            <input type="text" id="surname-warpped">
+          </div>
+
+        </div>
+
+
+        <div class="form-warpped">
+          <label for="email-warpped">Email <span>(digite um email válido)</span></label>
+          <input type="email" id="email-warpped">
+        </div>
+
+        
+
+        <div class="form-warpped">
+          <label for="password-warpped">Senha <span>(mínimo de 6 caracteres)</span></label>
+          <input type="password" id="password-warpped">
+        </div>
+
+      
+
+
+      </fieldset>
+
+      <fieldset>
+
+        <legend>
+          Informações do mentor
+        </legend>
+
+        <div class="form-warpped">
+          <label for="firstName-warpped">Nome do seu mentor <span>(só o primeiro nome)</span></label>
+          <input type="text" id="firstName-warpped">
+        </div>
+
+      </fieldset>
+
+      <fieldset>
+
+        <div class="dateAndTime-warpped">
+          <legend>
+            Seus horários disponíveis
+          </legend>
+          
+          
+          <h3>Primeira mentoria</h3>
+          <div class="dateAndTime">
+            
+            <div class="form-warpped">
+              <label for="date1-warpped">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" id="date1-warpped">
+            </div>
+
+            <div class="date-box">
+
+              <div class="form-warpped">
+                <label for="beforTime1-warpped">Das</label>
+                <input type="time" id="beforTime1-warpped">
+              </div>
+      
+              <div class="form-warpped">
+                <label for="afterTime1-warpped">Até</label>
+                <input type="time" id="afterTime1-warpped">
+              </div>
+            </div>
+    
+
+          </div>
+          
+          <h3>Segunda mentoria</h3>
+          <div class="dateAndTime">
+            
+            <div class="form-warpped">
+              <label for="date2-warpped">Data <span>(DD/MM/AAAA)</span></label>
+              <input type="date" id="date2-warpped">
+            </div>
+
+            <div class="date-box">
+
+              <div class="form-warpped">
+                <label for="beforTime2-warpped">Das</label>
+                <input type="time" id="beforTime2-warpped">
+              </div>
+      
+              <div class="form-warpped">
+                <label for="afterTime2-warpped">Até</label>
+                <input type="time" id="afterTime2-warpped">
+              </div>
+            </div>
+    
+  
+          </div>
+
+        </div>
+
+
+
+      </fieldset>
+
+      
+    </form>
+    <footer>
+      <button type="submit" form="my-form">SALVAR</button>
+    </footer>
+    
+  </main>
+  
+</body>
+</html>
